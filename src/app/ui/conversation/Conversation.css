@@ -1,0 +1,47 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.conversation .refresh-button {
+    margin-bottom: 1em;
+}
+
+.conversation .dialog {
+    width: 400px;
+    background-color: black;
+    border-radius: 4px;
+    margin: 1em;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.conversation .dialog .empty {
+    color: dimgray;
+    font-style: italic;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.conversation .dialog .message .body {
+    max-width: 300px;
+    background-color: rgb(58, 58, 255);
+    color: white;
+    border-radius: 24px;
+    padding: 10px 15px;
+    margin: 0.5em;
+    display: inline-block;
+}
+
+.conversation .dialog .outgoing {
+    text-align: right;
+}
+
+.conversation .dialog .outgoing .body {
+    background-color: lightgray;
+    text-align: left;
+    color: black;
+}

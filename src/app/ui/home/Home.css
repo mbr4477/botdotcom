@@ -1,0 +1,22 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 5em;
+}
+
+.landing .disclaimer {
+  font-style: italic;
+  color: dimgray;
+  font-size: 0.8em;
+}
+
+input[type=file] {
+  display: none;
+}

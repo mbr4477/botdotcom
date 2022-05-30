@@ -1,4 +1,3 @@
-import { createCorpus } from "../../../domain/CreateCorpus";
 import { makeBot } from "../../../domain/MakeBot";
 
 class HomePresenter {

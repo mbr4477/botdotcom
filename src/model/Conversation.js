@@ -1,5 +1,3 @@
-import { Message } from "./Message";
-
 /**
  * A conversation.
  */

@@ -2,7 +2,7 @@ import "./Home.css";
 import { Button } from "@mui/material";
 import HomePresenter from "./HomePresenter";
 import React, { createRef } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 class Home extends React.Component {
   constructor(props) {

@@ -34,7 +34,7 @@ export class MarkovBot {
    */
   getSentence(startFrom) {
     if (this._chain === null) {
-      throw "Corpus was not set!";
+      throw new Error("Corpus was not set!");
     }
     const out = this._chain.makeSentence(startFrom, { tries: 100, maxOverlapTotal: 8 });
     return out;

@@ -14,7 +14,7 @@ export function generateConversation(from = "FROM", to = "TO") {
   const bot = MarkovBot.getInstance();
   let out = "";
   out = bot.getSentence();
-  const regex = /\%(to|from)\%\s(.*?)(?=\%to\%|\%from\%|$)/g;
+  const regex = /%(to|from)%\s(.*?)(?=%to%|%from%|$)/g;
   const matches = [...out.matchAll(regex)];
   const messages = [];
   matches.forEach((match) => {
